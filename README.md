@@ -2,6 +2,8 @@
 
 An interactive Streamlit app that analyses your recorded or uploaded speech for vocal fluency, filler words, long pauses, and acoustic clarity — using Montreal Forced Aligner, Praat-Parselmouth, and custom heuristics.
 
+https://speech-analyser.streamlit.app/
+
 ---
 
 ## 🚀 Quickstart
