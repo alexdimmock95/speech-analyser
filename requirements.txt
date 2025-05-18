@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy==1.26.4
+matplotlib
+praat-parselmouth
+textgrid
+openai-whisper
+faster-whisper
+librosa
+soundfile
+pydub
+ffmpeg-python
