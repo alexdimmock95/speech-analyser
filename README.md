@@ -1,4 +1,4 @@
-# 🗣️ Speech Analyser App
+# Speech Analyser App
 
 An interactive Streamlit app that analyses recorded or uploaded speech 
 for vocal fluency, filler words, long pauses, and acoustic clarity — 
@@ -20,23 +20,23 @@ The app is designed around two layers of analysis:
   specific phonemes. This opens the door to pronunciation feedback at a 
   granularity that word-level transcription alone cannot achieve.
 
-🌐 **Live demo:** https://speech-analyser.streamlit.app/
+**Live demo:** https://speech-analyser.streamlit.app/
 
 > ⚠️ The live demo runs the full Whisper + Praat pipeline. MFA phoneme 
 > alignment requires local setup and is disabled on the hosted version.
 
 ---
 
-## 🧠 Features
+## Features
 
-- 🎙 Upload or record your own voice
-- 🗯 Detect filler words (customisable list)
-- ⏸ Flag long pauses above a configurable threshold
-- 🎚 Analyse pitch, intensity, jitter and shimmer via Praat
-- 📊 Visual feedback with coaching-style summaries
-- 🔬 Phoneme-level alignment via MFA (local only — see below)
+- Upload or record your own voice
+- Detect filler words (customisable list)
+- Flag long pauses above a configurable threshold
+- Analyse pitch, intensity, jitter and shimmer via Praat
+- Visual feedback with coaching-style summaries
+- Phoneme-level alignment via MFA (local only — see below)
 
-## 📸 Screenshots
+## Screenshots
 
 **Acoustic Analysis — Intensity over time**
 ![Intensity plot showing vocal energy over time](assets/screenshot_01.png)
@@ -46,7 +46,7 @@ The app is designed around two layers of analysis:
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 ```bash
 git clone https://github.com/alexdimmock95/speech-analyser.git
 cd speech-analyser
@@ -61,7 +61,7 @@ streamlit run app.py
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 ### Python Packages
 - `streamlit` — web app interface
@@ -80,7 +80,7 @@ streamlit run app.py
 
 ---
 
-## 🔬 MFA Phoneme Alignment (Local Only)
+## MFA Phoneme Alignment (Local Only)
 
 Montreal Forced Aligner (MFA) adds phoneme-level timing to the 
 analysis — it aligns the transcript to the audio at the level of 
@@ -150,7 +150,7 @@ MFA entirely.
 
 ---
 
-## 🔮 Future Plans
+## Future Plans
 
 - **Time-localised feedback** — flag specific moments in the audio where 
   pitch, intensity or fluency metrics deteriorate, rather than 
@@ -167,13 +167,13 @@ MFA entirely.
 
 ---
 
-## 🙌 Credits
+## Credits
 
 - [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/)
 - [Praat-Parselmouth](https://github.com/YannickJadoul/Parselmouth)
 
 ---
 
-## 📝 License
+## License
 
 MIT License — see `LICENSE` for details.
